@@ -1,0 +1,13 @@
+API_ENDPOINT = "http://api.population.io:80/1.0/";
+DEFAULT_PARAM = "25/today";
+
+url get all countries : 
+${API_ENDPOINT}countries
+
+url mortality male :
+${API_ENDPOINT}mortality-distribution/${country}/male/${DEFAULT_PARAM}
+
+url mortality female :
+${API_ENDPOINT}mortality-distribution/${country}/female/${DEFAULT_PARAM}
+
+
