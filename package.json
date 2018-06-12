@@ -1,9 +1,9 @@
 {
-  "name": "react-redux-pack-demarrage",
+  "name": "react-redux-demographic",
   "version": "1.0.0",
-  "description": "Un pack de démarrage pour React + Redux",
+  "description": "react-redux-demographic",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:Bkake/react-redux-demographic.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
